@@ -1,0 +1,27 @@
+PROJETO
+
+  Monitoramento de Temperatua e Umidade de Freezers e DryBox
+
+HARDWARE
+  Raspberry
+  Sensor DHT22
+
+SWs
+  Backend
+    Node
+    MongoDb
+
+  Frontend
+    ReactJS
+    PowerBI
+
+
+PLANO DE ACOES
+
+  ( ) Definir a estrutura dos Dados que serao aramzenados
+  ( ) Criar metodo para executar leitura do Sensor
+  ( ) Criar API CRUD para leituras
+  ( ) Criar APP com Dashboard das medicoes
+  ( ) Criar PowerBI para consultas de dados
+  ( ) Criar repositorio GIT Hub
+
