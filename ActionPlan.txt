@@ -18,10 +18,10 @@ SWs
 
 PLANO DE ACOES
 
-  ( ) Definir a estrutura dos Dados que serao aramzenados
-  ( ) Criar metodo para executar leitura do Sensor
+  ( ) Definir a estrutura dos Dados que serao armazenados
+  (X) Criar metodo para executar leitura do Sensor
   ( ) Criar API CRUD para leituras
   ( ) Criar APP com Dashboard das medicoes
-  ( ) Criar PowerBI para consultas de dados
+  (X) Criar PowerBI para consultas de dados
   ( ) Criar repositorio GIT Hub
 
