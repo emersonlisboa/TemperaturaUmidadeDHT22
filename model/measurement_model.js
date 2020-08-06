@@ -21,6 +21,6 @@ export default (mongoose) => {
     },
   });
 
-  const Measurement = mongoose.model('measurements', schema);
+  const Measurement = mongoose.model('measurement', schema);
   return Measurement
 }

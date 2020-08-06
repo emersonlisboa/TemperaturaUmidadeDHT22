@@ -20,8 +20,13 @@ PLANO DE ACOES
 
   ( ) Definir a estrutura dos Dados que serao armazenados
   (X) Criar metodo para executar leitura do Sensor
-  ( ) Criar API CRUD para leituras
+  ( ) Criar um projeto somente para inserir as leituras automaticas
+  ( ) Criar API para leituras dos dados do banco
   ( ) Criar APP com Dashboard das medicoes
   (X) Criar PowerBI para consultas de dados
   ( ) Criar repositorio GIT Hub
+
+  next Step
+  Verificar metodo para salvar em schema o dados lidos do Sensor. A data precisar ser salva automaticamente
+  
 

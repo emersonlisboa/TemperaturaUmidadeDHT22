@@ -1,6 +1,8 @@
 import { db } from '../model/index';
 
 
+
+
 const Measurement = db.measurement;
 
 
@@ -38,21 +40,16 @@ const create = async (req, res) => {
 
 
 const findAll = async (req, res) => {
-  const period = req.query.period;
 
-  if (period) {
-    try {
-      const data = await Measurement.find({ yearMonth: period })
-      res.send(data)
-    } catch (error) {
-      res
-        .status(500)
-        .send({ message: error.message || 'Erro ao listar todos os documentos' });
-      //   logger.error(`GET /measurement - ${JSON.stringify(error.message)}`);
-    }
-  } else {
-    res.status(400).send({ message: 'Por favor informar parametro de YYYY-MM para pesquisar!' })
+  try {
+    const data = await Measurement.find()
+    res.send(data)
+  } catch (error) {
+    res
+      .status(500)
+      .send({ message: error.message || 'Erro ao listar todos os documentos' });
   }
+
 };
 
 const findOne = async (req, res) => {

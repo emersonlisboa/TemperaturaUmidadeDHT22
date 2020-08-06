@@ -9,12 +9,12 @@ async function readData() {
     const res = await sensor.read(SENSOR_TYPE, PIN);
     let d = new Date()
     let n = d.toLocaleString()
+
     console.log(
       `Date: ${n}, ` +
       `temp: ${res.temperature.toFixed(1)} °C, ` +
       `humidity: ${res.humidity.toFixed(1)}% `
     );
-
   } catch (err) {
     console.error("Falhou na leitura do Sensor:", err);
   }
@@ -25,5 +25,3 @@ console.log('Aguarde Inicilizacao do Sensor...')
 setInterval(function () {
   readData();
 }, READ_TIMER);
-
-
